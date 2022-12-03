@@ -23,7 +23,7 @@ void setup() {
 
 void loop() {
   msec = millis();
-  if(msec - msec0 >= 10){
+  if(msec - msec0 >= 1000){
     msec0 = msec;
     sec ++;
   
